@@ -3,7 +3,7 @@ const paswort = "LEONGHGLOL"
 
 function login(){
     let usernameInput = document.getElementById("username").value;
-    let paswortInput = document.getElementById("paswort").value;
+    let paswortInput = document.getElementById("password").value;
     let messageInput = document.getElementById("message");
 
     if (usernameInput === username && paswortInput === paswort) {
